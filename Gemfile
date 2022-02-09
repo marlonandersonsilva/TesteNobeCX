@@ -30,6 +30,7 @@ group :development, :test do
   gem 'ZenTest', '4.11.0'
   gem 'autotest', '4.4.6'
   gem 'autotest-rails', '4.2.1'
+  gem 'rspec-rails', '~> 3.8'
 end
 
 gem 'wdm', '>= 0.1.0' if Gem.win_platform?	
